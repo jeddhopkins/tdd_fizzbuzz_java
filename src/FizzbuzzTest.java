@@ -44,10 +44,4 @@ class FizzbuzzTest extends Fizzbuzz {
 	public void testzero() {
 		Assertions.assertThrows(IllegalArgumentException.class, () -> fizzbuzz.play(0));
 	}
-	
-//	@Test
-//	void test5() {
-//		Fizzbuzz fizzbuzz = new Fizzbuzz();
-//		assertArrayEquals(, fizzbuzz.converter(5));
-//	}
 }
